@@ -4,21 +4,30 @@ import { v4 as uuidv4 } from "uuid";
 const chillHop = () => {
   return [
     {
+      name: "Habibim Sog'inchi",
+      artist: "Sardor Rahimxon",
+      cover: "https://i1.sndcdn.com/artworks-Wl76zvHUAwVE3bXr-r4Lkfw-t500x500.jpg",
+      color: ["#44495B", "#535971"],
+      id: uuidv4(),
+      audio: "https://bestmusic.uz/files/music/2020/11/Sardor_Rahimxon_-_Habibim_soginchi.mp3",
+      active: true,
+    },
+    {
       name: "Cruising",
       artist: "Evil Needle",
       cover: "https://chillhop.com/wp-content/uploads/2021/04/cb0cc6270d7f2e1bb13e44e8832bd5c9b2a61080-1024x1024.jpg",
       color: ["#EB544D", "#E7B25F"],
       id: uuidv4(),
       audio: "https://mp3.chillhop.com/serve.php/?mp3=17087",
-      active: true,
+      active: false,
     },
     {
-      name: "When I Get Up In The Morn...",
-      artist: "Middle School",
-      cover: "https://chillhop.com/wp-content/uploads/2021/07/5821e04fd52fa668a0b9890f213cbb12e454cc6b-1024x1024.jpg",
+      name: "Otamdan yodgorim",
+      artist: "Rardor rahimxon",
+      cover: "https://i1.sndcdn.com/artworks-Wl76zvHUAwVE3bXr-r4Lkfw-t500x500.jpg",
       color: ["#2D3F4D", "#D16A49"],
       id: uuidv4(),
-      audio: "https://mp3.chillhop.com/serve.php/?mp3=22933",
+      audio: "http://bestmusic.uz/play/arxiv/sardor-rahimxon-otamdan-yodgorim-onam.mp3",
       active: false,
     },
     {
@@ -39,26 +48,16 @@ const chillHop = () => {
       audio: "https://mp3.chillhop.com/serve.php/?mp3=17933",
       active: false,
     },
-    //aasndlajsdl
     {
       name: "Mehribonim Onam",
       artist: "Sardor Rahimxon",
-      cover: "https://i.ytimg.com/vi/76mw_PI1bgw/maxresdefault.jpg",
+      cover: "https://yt3.ggpht.com/ytc/AKedOLQOZtiTd7ixpuH-I4SR2e6DzzjjtTCYpViJX699EQ=s900-c-k-c0x00ffffff-no-rj",
       color: ["#4B1714", "#4F2111"],
       id: uuidv4(),
       audio: "https://muzfm.tv/uploads/dl06/sardor-rahimxon-mehribonim-onam.muzfm.tv.mp3",
       active: false,
     },
-    {
-      name: "Nigorim",
-      artist: "Shohruhxon",
-      cover: "https://muzfm.tv/uploads/posts/2021-01/1611230619_shohruhxon.jpg",
-      color: ["#44495B", "#535971"],
-      id: uuidv4(),
-      audio: "http://newhit.uz/download/1992",
-      active: false,
-    },
-    //asodkadsoa
+
     {
       name: "Cabaña",
       artist: "Juan Rios",
